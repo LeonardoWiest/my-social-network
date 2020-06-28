@@ -15,6 +15,8 @@ public class UsuarioController {
 	@PostMapping("/autenticar")
 	public ResponseEntity<?> autenticar(@Valid @RequestBody AutenticarPayLoad autenticarPayLoad) {
 
+		System.out.println("Entrou...");
+		
 		return ResponseEntity.ok(null);
 	}
 }
