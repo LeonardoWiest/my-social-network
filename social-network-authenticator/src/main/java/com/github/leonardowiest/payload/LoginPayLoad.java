@@ -5,7 +5,7 @@ import javax.validation.constraints.NotBlank;
 import lombok.Data;
 
 @Data
-public class AutenticarPayLoad {
+public class LoginPayLoad {
 
 	@NotBlank
 	private String usuario;
